@@ -1,4 +1,4 @@
-# Helilooja tuvastamine ja tähelepanumehhanismi visualiseerimine MidiBERTi mudeli abil
+# Sügavõppemudeli otsustusprotsessi interpreteerimine helilooja tuvastamise ülesandes
 
 Bakalaureusetöö (Tartu Ülikool, arvutiteaduse instituut, 2026)
 
