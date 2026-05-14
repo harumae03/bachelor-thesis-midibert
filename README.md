@@ -16,7 +16,7 @@ Töös peenhäälestatakse MidiBERT-Piano mudel helilooja tuvastamiseks ning ana
 | `Atepp_parandatud.ipynb` | ATEPP 4-klassi klassifikaatori treenimine ja hindamine. Mudeli arhitektuur (maskeeritud keskmistamisega klassifitseerimispea), andmestiku ettevalmistus, kahefaasiline treenimine, tulemuste visualiseerimine. |
 | `2EestiSoomeKlassifikaator.ipynb` | Eesti-Soome rahvamuusika 2-klassilise mudeli treenimine. MusicXML-failide teisendamine MIDI-vormingusse (music21), tempo normaliseerimine, 5-kordne ristvalideerimine, bar-tokeni ablatsioonikatse. |
 | `6Klassi.ipynb` | 6-klassilise kombineeritud mudeli treenimine (ATEPP 4 heliloojat + 2 rahvamuusika klassi). Ristvalideerimine ja tulemuste võrdlus. |
-| `Atepp_Attention_rollout.ipynb` | Klassikalise muusika kumulatiivse tähelepanu analüüs. Rollout-funktsioonid (3, 6 ja 12 kihti), klaverirulli visualiseerimine, kontsentreerituse mõõdikud (Gini koefitsient, entroopia, kurtoosis), helikõrguse ulatuse statistiline analüüs (Mann-Whitney U test, χ²-test). |
+| `Atepp_Attention_rollout.ipynb` | Klassikalise muusika kumulatiivse tähelepanu analüüs. Rollout-funktsioonid (3, 6 ja 12 kihti), klaverirulli visualiseerimine, kontsentreerituse mõõdikud (Gini koefitsient, entroopia, kurtoosis), helikõrguse ulatuse statistiline analüüs (Wilcoxoni astakmärkide test). |
 | `AttentionRollout_Rahvamuusika.ipynb` | Rahvamuusika kumulatiivse tähelepanu analüüs. Tokenite joondamine originaalnootidega (scipy cdist), värvitud partituuride eksportimine MusicXML-failidena. |
 | `requirements.txt` | Vajalikud Python teegid. |
 
